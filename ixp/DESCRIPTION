@@ -1,0 +1,28 @@
+Package: ixp
+Title: IXP utilities
+Version: 0.1
+Description: IXP data and various helper functions
+VignetteBuilder: knitr
+Author: Joe Peskett [aut, cre],
+        Philip Stubbings [aut, cre]    
+Maintainer: Joe Peskett <joseph.peskett@ons.gov.uk>,
+            Philip Stubbings <philip.stubbings@ons.gov.uk>
+URL: https://github.com/datasciencecampus/tron
+BugReports: https://github.com/datasciencecampus/tron/issues
+License: OGL (>= 3)
+Depends:
+  R (>= 3.4.0),
+  chron,
+  dplyr,
+  lubridate,
+  TTR,
+  xts,
+  zoo,
+  viridis,
+  ggplot2,
+  knitr
+LazyData: true
+RoxygenNote: 6.1.1
+Encoding: UTF-8
+Suggests: knitr,
+    rmarkdown

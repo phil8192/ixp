@@ -9,6 +9,9 @@ roc(x)
 \arguments{
 \item{x}{}
 }
+\value{
+
+}
 \description{
 roc_t = (Xt - Xt-1)/Xt-1
 }

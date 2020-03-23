@@ -8,8 +8,9 @@
 ##' @author phil
 ##' @export
 ##' @examples
-##'
+##' \dontrun{
 ##' ts_heatmap(lon1["2017"])
+##' }
 ##'
 ts_heatmap <- function(ts, col.scheme="inferno") {
   g <- ggplot(ts, aes(x=strftime(index(ts), format="%D"), y=factor(MsM)))

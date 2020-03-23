@@ -4,8 +4,11 @@
 \alias{peak_plot}
 \title{Peak plot}
 \usage{
-peak_plot(my_xts, date, windows = list(c(15.5 * 60, 18.5 * 60), c(18.5 *
-  60, 21.5 * 60)))
+peak_plot(
+  my_xts,
+  date,
+  windows = list(c(15.5 * 60, 18.5 * 60), c(18.5 * 60, 21.5 * 60))
+)
 }
 \arguments{
 \item{my_xts}{an XTS object containing the date that you aim to plot.}

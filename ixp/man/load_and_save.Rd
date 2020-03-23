@@ -4,8 +4,13 @@
 \alias{load_and_save}
 \title{load csv, process and save in data/}
 \usage{
-load_and_save(base_dir = "", ixps = c("lon1", "lon2", "man1", "sco1",
-  "nva1", "car1"))
+load_and_save(
+  base_dir = "",
+  ixps = c("lon1", "lon2", "man1", "sco1", "nva1", "car1")
+)
+}
+\value{
+
 }
 \description{
 convenience function.

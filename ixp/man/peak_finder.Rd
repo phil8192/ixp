@@ -4,8 +4,10 @@
 \alias{peak_finder}
 \title{Peak finder}
 \usage{
-peak_finder(my_data, windows = list(c(15.5 * 60, 18.5 * 60), c(18.5 * 60,
-  21.5 * 60)))
+peak_finder(
+  my_data,
+  windows = list(c(15.5 * 60, 18.5 * 60), c(18.5 * 60, 21.5 * 60))
+)
 }
 \arguments{
 \item{my_data}{A list or xts object. Currently requires a time-based index 

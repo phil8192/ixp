@@ -18,8 +18,9 @@ ggplot
 Alternative time-series visualisation.
 }
 \examples{
-
+\dontrun{
 ts_heatmap(lon1["2017"])
+}
 
 }
 \author{

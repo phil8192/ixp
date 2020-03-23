@@ -4,8 +4,7 @@
 \alias{weekly_heatmap}
 \title{Plot 52-week vs average-MsM heatmap}
 \usage{
-weekly_heatmap(ts, year, col.scheme = "inferno", daily = FALSE,
-  border = NA)
+weekly_heatmap(ts, year, col.scheme = "inferno", daily = FALSE, border = NA)
 }
 \arguments{
 \item{ts}{Bandwidth time series}

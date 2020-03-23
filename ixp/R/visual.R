@@ -31,11 +31,11 @@ ts_heatmap <- function(ts, col.scheme="inferno") {
 ##' @author phil
 ##' @export
 ##' @examples
-##'
+##' \dontrun{
 ##' weekly_heatmap(lon2, year="2017", daily=FALSE)
 ##' dev.new()
 ##' weekly_heatmap(lon2, year="2017", daily=TRUE,  border="white", col.scheme="viridis")
-##'
+##' }
 weekly_heatmap <- function(ts, year, col.scheme="inferno", daily=FALSE, border=NA) {
   sub_year <- ts[year]
   if(daily) {

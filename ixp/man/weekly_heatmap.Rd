@@ -24,11 +24,11 @@ ggplot
 Average MsM value for each week.
 }
 \examples{
-
+\dontrun{
 weekly_heatmap(lon2, year="2017", daily=FALSE)
 dev.new()
 weekly_heatmap(lon2, year="2017", daily=TRUE,  border="white", col.scheme="viridis")
-
+}
 }
 \author{
 phil

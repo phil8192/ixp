@@ -10,3 +10,5 @@
 * Various notebooks for article: [Extracting social-economic signals from internet traffic data](https://datasciencecampus.ons.gov.uk/projects/what-can-internet-use-tell-us-about-our-society-and-the-economy/) - September, 2019.
 
 * R package in `ixp` for processing data from the [London Internet Exchange](https://www.linx.net/).
+
+* update: [internet traffic during lock-down](http://parasec.net/blog/internet-traffic-lock-down/)
